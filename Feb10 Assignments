@@ -1,0 +1,24 @@
+#Pass or fail
+Sno = int(input('Enter student no:'))
+Same = input('Enter student name:')
+Sgroup = input('Enter student group:')
+Sub1 = int(input('maths marks:'))
+Sub2 = int(input('physics marks:'))
+Sub3 = int(input('computer marks:'))
+Sub4 = int(input('english marks:'))
+Sub5 = int(input('Telugu marks:'))
+if Sub1>=35 and Sub2>=35 and Sub3>=35 
+Print('pass')
+else:
+Print('fail')
+
+Output:
+Enter student no:4
+Enter student name:Satya
+Enter student group:MPCS
+Maths marks:44
+Physics marks:57
+Computer marks:65
+English marks:48
+Telugu marks:50
+Pass
